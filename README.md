@@ -1,2 +1,1 @@
-# tpl-crypto-study
- Template for Incubatorium courses
+Console application for encrypting binary files
