@@ -1,0 +1,30 @@
+{
+  "name": "tpl-crypto-study",
+  "version": "0.0.1",
+  "description": "Studying cryptography with Incubatorium courses",
+  "main": "src/index.ts",
+  "scripts": {
+    "start:external": "open-terminal 'npm run start'",
+    "start": "node -r esm -r ts-node/register src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shpingalet007/tpl-crypto-study.git"
+  },
+  "author": "Incubatorium",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Shpingalet007/tpl-crypto-study/issues"
+  },
+  "homepage": "https://github.com/Shpingalet007/tpl-crypto-study#readme",
+  "devDependencies": {
+    "esm": "^3.2.25",
+    "open-terminal": "^0.1.11",
+    "ts-node": "^10.0.0",
+    "typescript": "^4.3.2"
+  },
+  "dependencies": {
+    "colors": "^1.4.0"
+  }
+}
